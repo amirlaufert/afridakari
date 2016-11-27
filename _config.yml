@@ -13,7 +13,7 @@ assets:
   assets:
     - _assets/colour.jpg
 
-baseurl: /afridakari/
+baseurl: /
 
 exclude:
   - .bowerrc
