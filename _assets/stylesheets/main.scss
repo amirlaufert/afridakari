@@ -1,7 +1,6 @@
 //= require bootstrap.min.css
 //= require OpenSans.css
 //= require Merriweather.css
-//= require font-awesome.min.css
 //= require animate.min.css
 
 @charset "utf-8";
@@ -42,6 +41,8 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        'font-awesome-sprockets',
+        'font-awesome',
         "mixins",
         "base"
 ;
